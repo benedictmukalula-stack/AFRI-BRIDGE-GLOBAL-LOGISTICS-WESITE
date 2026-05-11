@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env
+skills/
+download/
+upload/
+db/*.db
+.zscripts/
