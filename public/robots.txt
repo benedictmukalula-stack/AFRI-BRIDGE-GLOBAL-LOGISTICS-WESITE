@@ -1,14 +1,9 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# *
 User-agent: *
 Allow: /
+
+# Host
+Host: https://afri-bridge-global-logistics-websit.vercel.app
+
+# Sitemaps
+Sitemap: https://afri-bridge-global-logistics-websit.vercel.app/sitemap.xml
