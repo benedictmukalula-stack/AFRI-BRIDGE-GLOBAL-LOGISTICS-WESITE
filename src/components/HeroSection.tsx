@@ -119,7 +119,7 @@ export function HeroSection() {
 
         {/* Stats Bar - Glassmorphism */}
         <ScrollAnimation delay={200} blur>
-          <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
             {stats.map((stat) => (
               <div
                 key={stat.label}

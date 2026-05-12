@@ -181,7 +181,7 @@ export function FloatingWhatsAppAssistant() {
     <>
       {/* Chat Panel */}
       <div
-        className={`fixed bottom-6 right-6 z-[9999] w-[380px] max-w-[calc(100vw-2rem)] rounded-2xl shadow-2xl
+        className={`fixed bottom-6 right-6 z-[9999] w-full max-w-[calc(100vw-2rem)] rounded-2xl shadow-2xl
           bg-white overflow-hidden flex flex-col
           transition-all duration-300 ease-out origin-bottom-right
           ${isOpen ? 'scale-100 opacity-100 translate-y-0 pointer-events-auto' : 'scale-90 opacity-0 translate-y-4 pointer-events-none'}

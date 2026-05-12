@@ -210,7 +210,7 @@ export function LiveUpdatePopup() {
 
         {/* Notification Panel */}
         {isOpen && (
-          <div className="absolute right-0 top-full mt-2 w-[420px] max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden z-[100] animate-in fade-in slide-in-from-top-2 duration-200">
+          <div className="absolute right-0 top-full mt-2 w-full max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden z-[100] animate-in fade-in slide-in-from-top-2 duration-200">
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 bg-[#0B1F3A] text-white">
               <div className="flex items-center gap-2">
@@ -359,7 +359,7 @@ export function LiveUpdatePopup() {
       {/* Toast Notification */}
       {toast && (
         <div
-          className={`fixed top-20 right-4 z-[200] w-[360px] max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden transition-all duration-400 ease-out ${
+          className={`fixed top-20 right-4 z-[200] w-full max-w-[calc(100vw-2rem)] bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden transition-all duration-400 ease-out ${
             toastVisible
               ? 'translate-x-0 opacity-100'
               : 'translate-x-[calc(100%+2rem)] opacity-0'
